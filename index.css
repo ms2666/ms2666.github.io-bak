@@ -7,9 +7,12 @@ h1#h01 {
 	border: 2px solid #66CCFF;
 }
 
-p {
-	border:1px solid black;
-	padding:10px;
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
 }
 
 .nav ul {
@@ -38,6 +41,12 @@ p {
     margin-right: auto;
 
     border:1px solid black;
+}
+
+a#google_link {
+	a:hover {
+		color:#ff0000; background-color:transparent; text-decoration:underline
+	};
 }
 
 img#img01 {
