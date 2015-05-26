@@ -5,15 +5,68 @@
 			Mukund Sudarshan
 		</title>
 		<link href="index.css" rel="stylesheet" />
+		<!-- refresh document every second -->
+		<meta http-equiv="refresh" content="30">
+		<!-- Author name -->
+		<meta name="author" content="Mukund Sudarshan">
 	</head>
+
 	<body>
+		<ul id="menu">
+			<li><a href="http://goo.gl/mbnqBl">HTML</a></li>
+			<li><a href="http://goo.gl/mbnqBl">CSS</a></li>
+			<li><a href="http://goo.gl/mbnqBl">JavaScript</a></li>
+			<li><a href="http://goo.gl/mbnqBl">PHP</a></li>
+		</ul>
+
 		<!-- headings -->
 		<h1 id="h01">Welcome to my website!</h1>
+
+		<!-- IFrames -->
+		<iframe src="demo_iframe.htm" name="iframe_a"></iframe>
+			<p>
+				<a href="http://www.w3schools.com" target="iframe_a">
+					W3Schools.com
+				</a>
+			</p>
 
 		<!-- paragraphs -->
 		<p title="Why did you mouseover?">
 			I'm hosted with GitHub Pages.
 		</p>
+
+		<div class = "cities">
+			<h2>London</h2>
+			<p>
+				London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.
+			</p>
+		</div>
+
+		<div id="header">
+			<h1>City Gallery</h1>
+		</div>
+
+		<div id="nav">
+			London<br/>
+			Paris<br/>
+			Tokyo<br/>
+		</div>
+
+		<div id="section">
+			<h1>London</h1>
+			<p>
+				London is the capital city of England. It is the most populous city in the United Kingdom,
+				with a metropolitan area of over 13 million inhabitants.
+			</p>
+			<p>
+				Standing on the River Thames, London has been a major settlement for two millennia,
+				its history going back to its founding by the Romans, who named it Londinium.
+			</p>
+		</div>
+
+		<div id="footer">
+			Copyright Mukund Sudarshan
+		</div>
 
 		<!-- Links -->
 		<a id = "google_link" href="https://www.google.com">
@@ -60,6 +113,9 @@
 
 		<!-- Tables -->
 		<table style="width:100%">
+			<caption>
+				Dis my table y'all
+			</caption>
   			<tr>
     			<th>Firstname</th>
 			    <th>Lastname</th>		
@@ -81,6 +137,20 @@
 			    <td>80</td>
 			</tr>
 		</table>
+
+		<!-- nested lists -->
+		<h2>A Nested List</h2>
+		<ul>
+			<li>Coffee</li>
+			<li>Tea
+				<ul>
+					<li>Black tea</li>
+					<li>Green tea</li>
+				</ul>
+			</li>
+			<li>Milk</li>
+		</ul>
+
 
 		<!-- Large ass image -->
 		<div class = "large_images" id="img01">
