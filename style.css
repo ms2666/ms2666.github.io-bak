@@ -72,26 +72,8 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 .bg-center{
 	-webkit-background-size: auto;
 }
-
-
-/* Video Background Styles */
-
-.video-bg-contianer, .bloc-video{
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 50%;
-	right: -50%;
-	overflow: hidden;
-	transform: translateX(-50%);
-	-webkit-transform:translateX(-50%);
-}
-.bloc-video{
-	width: auto;
-	height: auto;
-	min-width: 100%;
-	min-height: 100%;
-	z-index: 0;
+.bg-repeat{
+	background:repeat;
 }
 
 
@@ -512,6 +494,9 @@ iframe{
 .bgc-white{
 	background-color:#ffffff;
 }
+.bgc-outer-space{
+	background-color:#47454B;
+}
 /* Text colour styles */
 
 .tc-white{
@@ -519,13 +504,15 @@ iframe{
 }
 /* Button colour styles */
 
-.btn-outer-space{
-	background-color:#47454B;
-	color:#FFF!important;
+.btn-white{
+	background-color:#ffffff;
+	color:rgba(0,0,0,.4)!important;
 }
-.btn-outer-space:hover{
-	background-color:#3b393e;
-	!important}
+.btn-white:hover{
+	background-color:#dedede;
+	color:rgba(0,0,0,.4)!important;
+}
+
 /* Bloc image backgrounds */
 
 .bg-mountains{
@@ -534,20 +521,23 @@ iframe{
 .bg-UpyBNDt198{
 	background-image:url("img/UpyBNDt198.svg");
 }
+.bg-mountains{
+	background-image:url("img/mountains.jpg");
+}
 .bg-mountainsdusk{
 	background-image:url("img/mountainsdusk.jpg");
 }
-.bg-citysky{
-	background-image:url('img/citysky.jpg');
-}
-.bg-mountains{
-	background-image:url('img/mountains.jpg');
-}
-.bg-mountainsdusk{
-	background-image:url('img/mountainsdusk.jpg');
-}
 .bg-field{
-	background-image:url('img/field.jpg');
+	background-image:url("img/field.jpg");
+}
+.bg-squared-d-bg{
+	background-image:url('img/squared-d-bg.png');
+}
+.bg-Cornell-University{
+	background-image:url('img/Cornell-University.jpeg');
+}
+.bg-manhattan-lowres2{
+	background-image:url('img/manhattan_lowres2.jpg');
 }
 
 
