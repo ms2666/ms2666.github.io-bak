@@ -639,6 +639,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .mybutton:hover{
 }
+.paper-button{
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -651,7 +653,39 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-outer-space{
 	background-color:#47454B;
 }
+/* Button colour styles */
 
+.btn-topaz{
+	background:#FFD37B;
+	color:rgba(0,0,0,.5)!important;
+}
+.btn-topaz:hover{
+	background:#cca962;
+	color:rgba(0,0,0,.5)!important;
+}
+.btn-carmine-pink{
+	background:#F04543;
+	color:#FFFFFF!important;
+}
+.btn-carmine-pink:hover{
+	background:#c03736;
+	color:#FFFFFF!important;
+}
+.btn-caribbean-green{
+	background:#09D37B;
+	color:#FFFFFF!important;
+}
+.btn-caribbean-green:hover{
+	background:#07a962;
+	color:#FFFFFF!important;
+}
+.btn-outer-space{
+	background-color:#47454B;
+	color:#FFF!important;
+}
+.btn-outer-space:hover{
+	background-color:#3b393e;
+	!important}
 /* Bloc image backgrounds */
 
 .bg-mountains{
